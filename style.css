@@ -6,10 +6,11 @@ body {
 section {
     text-align: center;
     color: chartreuse;
-    font-size: 60px;
+    font-size: 55px;
     font-family: "Courier";
     font-weight: lighter;
 }
+
 .game--container {
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -17,6 +18,57 @@ section {
     margin: 70px auto;
     color: white;
 }
+
+.game--status{
+    font-size: 55px;
+}
+
+.game--restart{
+    font-family: "Courier";
+    font-weight: 1000;
+    border: 0;
+    outline: none;
+    font-size: 30px;
+    margin: 0px;
+    
+    color: chartreuse;
+    background-color: black;
+    border: 2px solid chartreuse;
+
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.game--restart:hover{
+    color: black;
+    background: chartreuse;
+}
+
+.main--menu{
+    font-family: "Courier";
+    font-weight: 1000;
+    border: 0;
+    outline: none;
+    font-size: 30px;
+    margin: 0px;
+    color: chartreuse;
+    background-color: black;
+    border: 2px solid chartreuse;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.main--menu:hover{
+
+    background: chartreuse;
+    color: black;
+
+}
+
+
+
 .cell {
     font-family: "Century Gothic", cursive;
     width: 100px;
